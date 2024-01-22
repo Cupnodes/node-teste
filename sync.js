@@ -1,7 +1,7 @@
-import { writeFile } from 'fs'
+const fs = require('fs')
 
 console.log('inicio')
-writeFile('sync.txt', 'epa', ()=>{
+fs.writeFile('sync.txt', 'epa', ()=>{
     try {
         setTimeout(() => {
             console.log('Arquivo criado')
