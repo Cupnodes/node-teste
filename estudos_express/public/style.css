@@ -1,0 +1,12 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000;
+}
+
+h1{
+    font-size: 3em;
+    font-style: italic;
+}
